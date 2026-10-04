@@ -2,11 +2,11 @@
 
 ## Businees Rule
 
-- ** BR-001:** Sistem membatasi pilihan tipe layanan laundry hanya menjadi dua jenis, yaitu 'Biasa' (Reguler) dan 'kilat' (Express).
-- ** BR-002:** Setiap data transaksi cucian diwajbkan memeliki Nomer Nota, Berat Cucian (Kg), dan Tipe Layanan.
-- ** BR-003:** Sistem akan mengecek input berat cucian. Jika berat yang dimasukan kurang dari 2 Kg, maka sistem otomatis membulatkan dan menghitungkan sebagai 2Kg.
-- ** BR-004:** Tarif dasar laundry dihitung berdasarkan Berat (minimal 2 Kg) dikalikan dengan Rp 7.0000
-- ** BR-005:** Jika pelanggan memilih layanan Tipe 'Kilat', sistem otomatis akan menambahkan biaya *Charge* sebesar 50% dari harga dasar cucian tersebut.
+- BR-001 Sistem membatasi pilihan tipe layanan laundry hanya menjadi dua jenis, yaitu 'Biasa' (Reguler) dan 'kilat' (Express).
+- BR-002 Setiap data transaksi cucian diwajbkan memeliki Nomer Nota, Berat Cucian (Kg), dan Tipe Layanan.
+- BR-003 Sistem akan mengecek input berat cucian. Jika berat yang dimasukan kurang dari 2 Kg, maka sistem otomatis membulatkan dan menghitungkan sebagai 2Kg.
+- BR-004 Tarif dasar laundry dihitung berdasarkan Berat (minimal 2 Kg) dikalikan dengan Rp 7.0000
+- BR-005 Jika pelanggan memilih layanan Tipe 'Kilat', sistem otomatis akan menambahkan biaya *Charge* sebesar 50% dari harga dasar cucian tersebut.
 
 ```dart
 // fungsi enum untuk bs memilih tipe laundry
