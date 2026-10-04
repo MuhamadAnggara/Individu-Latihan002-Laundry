@@ -56,7 +56,7 @@ void main() {
     var p = daftarPelanggan[i];
     double tagihan = hitungTotal(p);
     
-    // mengubah tulisan/txt enum menjadi String biasa agar bisa dibuat menjadi print
+    //  // mengubah tulisan enum menjadi string agar bisa di print <>
     
     String namaTipe = "";
     if (p.tipe == TipeLaundry.biasa) {
